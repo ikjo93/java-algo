@@ -1,2 +1,2 @@
-# Algorithm
-Code-up, BOJ etc PS
+### Algorithm
+Technic, PS etc
