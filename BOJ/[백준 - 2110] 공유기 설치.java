@@ -1,4 +1,3 @@
-```Java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -61,4 +60,3 @@ class Main {
 }
 
 // 참고 자료 : https://st-lab.tistory.com/277
-```
