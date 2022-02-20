@@ -1,3 +1,5 @@
+// 풀이 1
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -40,5 +42,47 @@ class Main {
         }
 
         return new int[]{minValue, index};
+    }
+}
+
+// 풀이 2
+
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[][] rgbHouse = new int[n][3];
+
+        for (int j = 0; j < 3; j++) {
+            rgbHouse[0][j] = sc.nextInt();
+        }
+
+        for (int i = 1; i < n; i++) {
+            int pR = rgbHouse[i - 1][0], pG = rgbHouse[i - 1][1], pB = rgbHouse[i - 1][2];
+
+            for (int j = 0; j < 3; j++) {
+                rgbHouse[i][j] = sc.nextInt();
+            }
+
+            rgbHouse[i][0] += Math.min(pG, pB);
+            rgbHouse[i][1] += Math.min(pR, pB);
+            rgbHouse[i][2] += Math.min(pR, pG);
+        }
+
+        System.out.println(getMinValueAndIndex(rgbHouse[n - 1]));
+    }
+
+    public static int getMinValueAndIndex(int[] arr) {
+        int minValue = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (minValue > arr[i]) {
+                minValue = arr[i];
+            }
+        }
+
+        return minValue;
     }
 }
