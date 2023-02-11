@@ -1,3 +1,5 @@
 ### Algorithm
 
-Learning Algorithms and Data Structures through Java
++ Java를 통해 알고리즘과 자료구조를 학습합니다. ✍
++ 부족한 실력이지만, 꾸준히 학습합니다. 🏃‍♂️
++ 백준 골드(5 ~ 1), 프로그래머스 level 3 문제를 무리 없이 풀어내는 수준까지 목표로 하고 있습니다.
