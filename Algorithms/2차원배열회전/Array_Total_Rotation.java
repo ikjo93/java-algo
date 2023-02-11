@@ -1,4 +1,4 @@
-class Rotation {
+class Array_Total_Rotation {
 
     public int[][] rotateClockwise(int[][] arr) {
         int row = arr.length;
