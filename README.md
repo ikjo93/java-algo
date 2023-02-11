@@ -1,2 +1,3 @@
 ### Algorithm
-Technic, PS etc
+
+Learning Algorithms and Data Structures through Java
