@@ -8,8 +8,8 @@ class Solution {
         int t = Integer.parseInt(br.readLine());
         for (int testCase = 1; testCase <= t; testCase++) {
 
-            char[] target = br.readLine().toCharArray();
-            char[] pattern = br.readLine().toCharArray();
+            char[] target = br.readLine().toCharArray(); // 탐색 대상 문잦열
+            char[] pattern = br.readLine().toCharArray(); // 찾고자 하는 문자열
 
             int n = target.length;
             int m = pattern.length;
