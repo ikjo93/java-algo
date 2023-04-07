@@ -2,6 +2,15 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*
+    reference
+     - 세그먼트 트리
+       - https://www.acmicpc.net/blog/view/9
+       - https://steady-coding.tistory.com/124
+     - 팬윅 트리
+       - https://www.acmicpc.net/blog/view/21
+*/
+
 public class Main {
 
     public static void main(String[] args) throws Exception {
