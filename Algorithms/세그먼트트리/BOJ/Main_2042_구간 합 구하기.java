@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
      - 팬윅 트리
        - https://www.acmicpc.net/blog/view/21
        - https://yoongrammer.tistory.com/104
+       - https://nahwasa.com/entry/%EC%9E%90%EB%B0%94-%EB%B0%B1%EC%A4%80-2042-%EA%B5%AC%EA%B0%84-%ED%95%A9-%EA%B5%AC%ED%95%98%EA%B8%B0-java
 */
 
 public class Main {
